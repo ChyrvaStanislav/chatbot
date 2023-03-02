@@ -1,0 +1,34 @@
+.root {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  width: 100%;
+
+  box-sizing: border-box;
+  padding: 5px 0;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+  p {
+    margin: 10px;
+  }
+}
+
+.user {
+  color: grey;
+  padding-right: 20%;
+  align-items: start;
+}
+
+.bot {
+  padding-left: 20%;
+  align-items: end;
+  text-align: right;
+}
+
+.preloader {
+  align-items: end;
+}
